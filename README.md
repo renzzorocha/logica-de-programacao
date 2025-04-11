@@ -28,7 +28,7 @@ Se você quer desenvolver uma base sólida e pensar como um verdadeiro programad
 Nesta atividade, foram utilizadas as seguintes tecnologias: 
 
 - IDE: <a href="https://code.visualstudio.com/download">Visual Studio Code</a>
-- Python: <a href="https://www.python.org/downloads/>Python</a>
+- Python: <a href="https://www.python.org/downloads/">Python</a>
 
 <h2 id=autor>🧑‍💻 Autor</h2>
 

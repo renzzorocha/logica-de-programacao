@@ -1,25 +1,22 @@
-# - Listas: conjunto de dados ordenados - mutável
-lista = [1, 4, 3, 4]
-frutas = ['banana', 'maçã']
-mista = [1, 'texto', 5, True]
+# lista
+# A lista é mutável, ou seja, podemos alterar os valores após a sua criação
 
-# - Tuplas: conjunto de dados ordenados - imutável
+lista = [1, 4, 3, 4]
+frutas = ['maçã', 'banana', 'mamão']
+lista_mista = [1, 'texto', 5, True]
+
+# tupla
+# Não é possível alterar os valores de uma tupla após a sua criação
 coordenada = (5, 6)
 tupla = (5, 4, 3, 2)
 
-# Dicionários (dict): conjunto de pares na forma chave e valor
-pessoa = { 'nome': 'João', 'idade': 18 }
-carro = {
-    'marca': 'Volks',
-    'modelo': 'Fusca',
-    'cor': 'azul',
-    'ano': 1970
-}
+# dicionario = {chave: valor}
+pessoa = { 'nome': 'Lucas', 'idade': 20, 'altura': 1.80 }
+marca = { 'marca': 'Nike', 'modelo': 'Air Max', 'preco': 500.00 }
 
-# Conjuntos (sets): Conjunto de dados não ordenados e sem repetição
+
+# sets ou conjuntos
+# Não aceita valores duplicados, não possui ordem e não é indexado
 c1 = {1, 2, 3}
 c2 = {3, 2, 1}
-c3 = {1, 2, 2, 2, 2, 2, 3, 3, 2, 1, 2, 3}
-
-dir(carro)
-
+c3 = {1, 2, 2, 2, 2, 3}

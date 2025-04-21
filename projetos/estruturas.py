@@ -20,3 +20,8 @@ marca = { 'marca': 'Nike', 'modelo': 'Air Max', 'preco': 500.00 }
 c1 = {1, 2, 3}
 c2 = {3, 2, 1}
 c3 = {1, 2, 2, 2, 2, 3}
+
+notas = [9.5, 7.5, 9.2]
+temp = sum(notas)
+media = temp / len(notas)
+print(media)
